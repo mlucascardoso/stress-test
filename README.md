@@ -1,4 +1,4 @@
-## Running
+## Run
     - docker-compose up --build
     - npm ci --silent
     - npm run loadtest:nocache
