@@ -3,7 +3,7 @@ import NodeCache from "node-cache";
 import { setDbModel } from './db.js';
 import Sequelize from 'sequelize'
 
-const CACHE_LIMIT = 0.1 // 100ms
+const CACHE_LIMIT = 2 // 100ms
 const dbCache = new NodeCache({ stdTTL: CACHE_LIMIT, checkperiod: 0.2 });
 const Hero = await setDbModel()
 

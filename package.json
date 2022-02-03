@@ -10,7 +10,7 @@
         "cached": "node src/index-cached.js",
         "seed": "node src/seeder.js",
         "loadtest:cached": "npx autocannon -c 100 -d 10 localhost:3000 --renderStatusCodes",
-        "loadtest:nocache": "npx autocannon -c 100 -d 10 localhost:4000 --renderStatusCodes"
+        "loadtest:nocache": "npx autocannon -c 10 -d 10 localhost:4000 --renderStatusCodes"
     },
     "keywords": [],
     "author": "mlucascardoso",
